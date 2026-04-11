@@ -1,0 +1,43 @@
+seed: 42
+output_dir: ./outputs/smoke_roberta_base_subspace
+algorithm: subspace_reg
+
+model_name: roberta-base
+torch_dtype: float32
+gradient_checkpointing: false
+load_in_4bit: false
+trust_remote_code: false
+
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+
+num_clients: 6
+client_fraction: 0.5
+num_rounds: 3
+local_epochs: 1
+max_local_steps: 10
+
+partition_type: dirichlet
+partition_field: activity_label
+dirichlet_alpha: 0.3
+min_client_size: 4
+
+max_train_samples: 600
+max_eval_samples: 200
+max_length: 192
+
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 2.0e-4
+weight_decay: 0.0
+max_grad_norm: 1.0
+
+mu: 0.05
+alpha: 0.01
+lambda_reg: 1.0e-5
+
+checkpoint_every: 1
+
+max_effective_lora_update_norm: 0.0

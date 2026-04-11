@@ -1,0 +1,15 @@
+{
+  "algorithm": "fedavg",
+  "model_name": "HuggingFaceTB/SmolLM-360M",
+  "seed": 42,
+  "num_rounds": 20,
+  "best_round": 20,
+  "best_eval_accuracy": 0.592,
+  "mean_last5_eval_accuracy": 0.5753999999999999,
+  "final_eval_accuracy": 0.592,
+  "final_eval_loss": 1.092681115621701,
+  "final_cancellation_ratio": 0.9812510352354794,
+  "final_mean_client_global_cosine": 0.9810021275259624,
+  "final_mean_pairwise_client_cosine": 0.943884212798238,
+  "final_mean_client_global_basis_overlap": 0.9784133971674971
+}

@@ -1,0 +1,17 @@
+{
+  "round": 20,
+  "selected_clients": [
+    3,
+    6,
+    8
+  ],
+  "mean_client_loss": 1.3783092167642381,
+  "mean_client_update_norm": 1.7020815362968584,
+  "aggregated_update_norm": 1.6319483576185463,
+  "cancellation_ratio": 0.958685508044578,
+  "mean_client_global_cosine": 0.9579050876981309,
+  "mean_pairwise_client_cosine": 0.8775189284835668,
+  "mean_client_global_basis_overlap": 0.9580833499565539,
+  "eval_loss": 1.3846185295581817,
+  "eval_accuracy": 0.306
+}

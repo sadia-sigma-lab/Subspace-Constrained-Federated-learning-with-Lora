@@ -1,0 +1,15 @@
+{
+  "algorithm": "subspace_reg",
+  "model_name": "FacebookAI/roberta-large",
+  "seed": 44,
+  "num_rounds": 20,
+  "best_round": 19,
+  "best_eval_accuracy": 0.484,
+  "mean_last5_eval_accuracy": 0.45360000000000006,
+  "final_eval_accuracy": 0.442,
+  "final_eval_loss": 1.3551673517227172,
+  "final_cancellation_ratio": 0.9614815213000856,
+  "final_mean_client_global_cosine": 0.9606491388711357,
+  "final_mean_pairwise_client_cosine": 0.8854294906836695,
+  "final_mean_client_global_basis_overlap": 0.9999757516451816
+}

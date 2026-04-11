@@ -1,0 +1,15 @@
+{
+  "algorithm": "svd",
+  "model_name": "HuggingFaceTB/SmolLM-360M",
+  "seed": 42,
+  "num_rounds": 20,
+  "best_round": 20,
+  "best_eval_accuracy": 0.539,
+  "mean_last5_eval_accuracy": 0.5362000000000001,
+  "final_eval_accuracy": 0.539,
+  "final_eval_loss": 1.1564222788959742,
+  "final_cancellation_ratio": 0.9886336077537734,
+  "final_mean_client_global_cosine": 0.9884827231470724,
+  "final_mean_pairwise_client_cosine": 0.9658464047027412,
+  "final_mean_client_global_basis_overlap": 0.9903671397783378
+}

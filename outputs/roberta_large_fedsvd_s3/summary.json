@@ -1,0 +1,15 @@
+{
+  "algorithm": "fedsvd",
+  "model_name": "FacebookAI/roberta-large",
+  "seed": 44,
+  "num_rounds": 20,
+  "best_round": 20,
+  "best_eval_accuracy": 0.347,
+  "mean_last5_eval_accuracy": 0.332,
+  "final_eval_accuracy": 0.347,
+  "final_eval_loss": 1.3811931927204133,
+  "final_cancellation_ratio": 0.9581055213012978,
+  "final_mean_client_global_cosine": 0.9572479568560867,
+  "final_mean_pairwise_client_cosine": 0.8755626849863235,
+  "final_mean_client_global_basis_overlap": 0.9575115887163341
+}
