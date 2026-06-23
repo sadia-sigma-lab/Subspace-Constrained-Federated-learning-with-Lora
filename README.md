@@ -89,7 +89,7 @@ python run_experiment.py \
 
 ## 📖 Citation
 
-If you use this dataset, or found our framework helpful, please cite:
+If you use this code, or found our framework helpful, please cite:
 
 ```bibtex
 @misc{senarath2026subspaceconstrainedfederatedlearninglowrank,
