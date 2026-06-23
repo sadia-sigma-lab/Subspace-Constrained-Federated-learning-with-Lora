@@ -1,6 +1,6 @@
 # Subspace-Constrained Federated LoRA: Research Benchmark Package
 
-This repository contains the code, report, slide and recording for all experiments of Subspace-Regularized LoRA :
+This repository contains the code, report and slides for all experiments of Subspace-Regularized LoRA :
 
 
 ## Repository layout
