@@ -3,10 +3,6 @@
 This repository contains the code, report, slide and recording for all experiments of Subspace-Regularized LoRA :
 
 
-## Recording
-
-https://drive.google.com/file/d/1ZeHbAddoKK5DTHN25OvrZGs888VRbmfC/view?usp=drive_link
-
 ## Repository layout
 
 - `run_experiment.py` — single experiment entrypoint
