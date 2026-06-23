@@ -87,6 +87,21 @@ python run_experiment.py \
   --output_dir outputs/test_override
 ```
 
+## 📖 Citation
+
+If you use this dataset, or found our framework helpful, please cite:
+
+```bibtex
+@misc{senarath2026subspaceconstrainedfederatedlearninglowrank,
+      title={Subspace-Constrained Federated Learning with Low-Rank Adaptation}, 
+      author={Neranjan Senarath and Rohit Muralitharan and Sadia Asif},
+      year={2026},
+      eprint={2606.22724},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.22724}, 
+}
+
 
 
 
